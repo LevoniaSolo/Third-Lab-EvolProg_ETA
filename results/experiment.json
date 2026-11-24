@@ -1,0 +1,63 @@
+{
+  "config": {
+    "data": {
+      "samples": 1000,
+      "seed": 1717,
+      "split_seed": 317,
+      "train_fraction": 0.6,
+      "validation_fraction": 0.2,
+      "signal": [
+        1.15,
+        0.95,
+        0.8,
+        0.65,
+        0.45
+      ],
+      "redundant_noise": 0.35,
+      "noise_features": 8
+    },
+    "classifier": {
+      "ridge": 0.1
+    },
+    "search": {
+      "runs": 20,
+      "seed": 1703,
+      "population_size": 60,
+      "generations": 45,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.05555555555555555
+    }
+  },
+  "run_seeds": [
+    2047107661684132524,
+    17657142128359995516,
+    16059780099652460548,
+    15602075123219270593,
+    11295160096747723906,
+    4919562032238554468,
+    11677708819207474100,
+    12226802546547575513,
+    14312706089231425284,
+    6846992874299416325,
+    3368537169179879124,
+    10329732316156180734,
+    15608033342535205892,
+    14068007687313098846,
+    9438532072228541171,
+    13679992752696794287,
+    16405958288490554438,
+    3477496047833067860,
+    7825739761907644487,
+    5075996087806627632
+  ],
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.7+dfsg1"
+  },
+  "pooled_unique_masks": 13438,
+  "pooled_pareto_points": 7,
+  "pooled_pareto_masks": 11,
+  "weighted_sum_supported_points": 6,
+  "missing_representative_roles": []
+}

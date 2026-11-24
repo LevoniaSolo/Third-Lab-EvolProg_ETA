@@ -1,0 +1,23 @@
+{
+  "data": {
+    "samples": 1000,
+    "seed": 1717,
+    "split_seed": 317,
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "signal": [1.15, 0.95, 0.80, 0.65, 0.45],
+    "redundant_noise": 0.35,
+    "noise_features": 8
+  },
+  "classifier": {
+    "ridge": 0.1
+  },
+  "search": {
+    "runs": 20,
+    "seed": 1703,
+    "population_size": 60,
+    "generations": 45,
+    "crossover_probability": 0.9,
+    "mutation_probability": 0.05555555555555555
+  }
+}

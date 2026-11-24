@@ -1,0 +1,5 @@
+role,mask,n_features,validation_errors,validation_error,validation_accuracy,selected_features,test_errors,test_error,test_accuracy
+min_features,000001000000000000,1,54,0.27,0.73,x06,56,0.28,0.72
+compromise,000001010000000000,2,33,0.165,0.835,x06 x08,45,0.225,0.775
+max_quality,111000010111000111,10,26,0.13,0.87,x01 x02 x03 x08 x10 x11 x12 x16 x17 x18,39,0.195,0.8049999999999999
+all_features,111111111111111111,18,36,0.18,0.8200000000000001,x01 x02 x03 x04 x05 x06 x07 x08 x09 x10 x11 x12 x13 x14 x15 x16 x17 x18,43,0.215,0.785
